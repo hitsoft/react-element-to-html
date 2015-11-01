@@ -9,6 +9,7 @@
   "author": "Marc Høegh <ebax_90@hotmail.com> (https://github.com/Anifacted)",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.0.14",
     "babel-core": "^6.0.14",
     "babel-preset-react": "^6.0.14",
     "mocha": "^2.3.3",
