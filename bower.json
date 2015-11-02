@@ -1,7 +1,7 @@
 {
   "name": "react-element-to-html",
   "description": "Convert a React element into static HTML markup",
-  "main": "react-element-to-html.js",
+  "main": "dist/react-element-to-html.js",
   "authors": [
     "Marc Høegh <ebax_90@hotmail.com> (https://github.com/Anifacted)"
   ],
