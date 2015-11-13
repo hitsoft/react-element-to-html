@@ -8,7 +8,7 @@ Useful where `ReactDOMServer.renderToStaticMarkup()` is not available.
 
 NPM:
 
-`$ npm install --save react-element-to-html`
+`$ npm install react-element-to-html`
 
 Bower:
 
