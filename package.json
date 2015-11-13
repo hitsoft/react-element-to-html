@@ -7,6 +7,10 @@
     "test": "node_modules/.bin/mocha --require babelhook.js test.jsx",
     "build": "browserify index.jsx -t [ babelify --presets [es2015] ] --standalone reactElementToHtml -o dist/react-element-to-html.js && uglifyjs dist/react-element-to-html.js --source-map dist/react-element-to-html.min.js.map > dist/react-element-to-html.min.js "
   },
+  "repository" : {
+    "type" : "git",
+     "url" : "https://github.com/Anifacted/react-element-to-html.git"
+  },
   "author": "Marc Høegh <ebax_90@hotmail.com> (https://github.com/Anifacted)",
   "license": "ISC",
   "devDependencies": {
