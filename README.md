@@ -2,7 +2,7 @@
 
 Utility function to turn a React Element into static HTML.
 
-Useful where `ReactDOMServer.renderToStaticMarkup()` is not available.
+Useful where `ReactDOMServer.renderToStaticMarkup()` is not available (E.g. in Bower).
 
 ## Installation
 
