@@ -2,7 +2,7 @@
   "name": "react-element-to-html",
   "version": "1.0.1",
   "description": "Convert a React element into static HTML markup",
-  "main": "index.js",
+  "main": "dist/react-element-to-html.js",
   "scripts": {
     "test": "node_modules/.bin/mocha --require babelhook.js test.jsx",
     "build": "browserify index.jsx -t [ babelify --presets [es2015] ] --standalone reactElementToHtml -o dist/react-element-to-html.js && uglifyjs dist/react-element-to-html.js --source-map dist/react-element-to-html.min.js.map > dist/react-element-to-html.min.js "
